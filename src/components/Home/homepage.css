@@ -1,0 +1,80 @@
+
+button{
+    background: #000000;
+    color: #FEFEFE;
+    padding: 5px;
+}
+.carousel-inner{
+    margin-top: 20px;
+}
+.section-padding{
+    padding: 100px 0;
+  }
+
+.img-area img{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    border-radius: 17px;
+  transition: 0.3s;
+  width: 100%;
+}
+.img-area img:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+.container h3{
+    padding-top: 20px;
+}
+
+.box-title{
+    padding-top: 60px;
+    color: #FFFFFF;
+    font-size: 800;
+}
+.logo{
+    margin-top: 50px;
+}
+.img-area img{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    border-radius: 17px;
+  transition: 0.3s;
+  width: 100%;
+}
+.img-area img:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+.container h3{
+    padding-top: 20px;
+}
+
+/* responsive css */
+@media only screen and (max-width: 768px) and (max-width: 991px){
+    .cards{
+        margin-bottom: 30px;
+    }
+    .img-area img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .section-padding{
+        padding: 50px 0;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-brand img{
+        width: 50%;
+    }
+    .text-img{
+        width: 60%;
+        margin-left: 20px;
+    }
+    .voucher-img{
+        width: 100%;
+        margin-left: 15px;
+    }
+    .join-img{
+        margin-top: 50px;
+    }
+   
+}
