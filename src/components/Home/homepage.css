@@ -14,8 +14,8 @@ button{
 .img-area img{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     border-radius: 17px;
-  transition: 0.3s;
-  width: 100%;
+    transition: 0.3s;
+    width: 100%;
 }
 .img-area img:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
@@ -31,18 +31,6 @@ button{
 }
 .logo{
     margin-top: 50px;
-}
-.img-area img{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
-    border-radius: 17px;
-  transition: 0.3s;
-  width: 100%;
-}
-.img-area img:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
-}
-.container h3{
-    padding-top: 20px;
 }
 
 /* responsive css */

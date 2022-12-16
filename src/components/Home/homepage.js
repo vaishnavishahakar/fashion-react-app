@@ -6,7 +6,12 @@ import group78 from "../../Assets/img/Group 78.png"
 import Rectangle20 from "../../Assets/img/Rectangle 20.png"
 import Rectangle21 from "../../Assets/img/Rectangle 21.png"
 import Rectangle22 from "../../Assets/img/Rectangle 22.png"
-import Arrow1 from "../../Assets/img/Arrow 1.png"
+import Arrow1 from "../../Assets/img/arrow-right.png"
+import Group82 from "../../Assets/img/Group_82.png"
+import Rectangle49 from "../../Assets/img/Rectangle 49.png"
+import Rectangle50 from "../../Assets/img/Rectangle 50.png"
+import Vouchers from "../../Assets/img/Vouchers.png"
+import Group64 from "../../Assets/img/Group_64.png"
 import "./homepage.css";
 
 const HomePage = () => {
@@ -63,16 +68,15 @@ const HomePage = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="section-header text-left pb-3 pb-sm-5">
-                <img src={group78} className="text-img"></img>
+                <img src={group78} alt="" className="text-img"></img>
               </div>
             </div>
           </div>
         </div>
 
         <div className="row">
-
-          <div className="col-12 col-md-12 col-lg-4">
-            <div className="cards text-left bg-white pb-2">
+          <div className="col-12 col-md-12 col-lg-4 ">
+            <div className="cards text-left pb-2">
               <div className="card-body text-dark">
                 <div className="img-area mb-4">
                   <img src={Rectangle20} alt="" className="img-fluid"></img>
@@ -87,7 +91,7 @@ const HomePage = () => {
           </div>
 
           <div className="col-12 col-md-12 col-lg-4">
-            <div className="cards text-left bg-white pb-2">
+            <div className="cards text-left pb-2">
               <div className="card-body text-dark">
                 <div className="img-area mb-4">
                   <img src={Rectangle21} alt="" className="img-fluid"></img>
@@ -102,7 +106,7 @@ const HomePage = () => {
           </div>
 
           <div className="col-12 col-md-12 col-lg-4">
-            <div className="cards text-left bg-white pb-2">
+            <div className="cards text-left pb-2">
               <div className="card-body text-dark">
                 <div className="img-area mb-4">
                   <img src={Rectangle22} alt="" className="img-fluid"></img>
@@ -119,29 +123,26 @@ const HomePage = () => {
         </div>
       </section>
 
-
       <div className="container">
         <div className="row">
           <div className="col-md-12">
             <div className="section-header text-left pb-3 pb-sm-5 ">
-              <img src="img/Group 82.png" className="text-img"></img>
+              <img src={Group82} alt="" className="text-img"></img>
             </div>
           </div>
         </div>
-
-
 
         <div className="row">
           <div className="col-12 col-md-12 col-lg-6">
             <div className="cards text-left bg-white pb-2">
               <div className="card-body text-dark">
                 <div className="img-area mb-4">
-                  <img src="img/Rectangle 49.png" alt="" className="img-fluid"></img>
+                  <img src={Rectangle49} alt="" className="img-fluid"></img>
 
                   <div className="container">
                     <h3 className="card-title">Trending on instagram</h3>
                     <p className="lead">Explore Now!</p>
-                    <button className="btn text-dark"><img src="img/Arrow 4.png" alt=""></img></button>
+                    <button className="btn text-dark"><img src={Arrow1} alt=""></img></button>
                   </div>
                 </div>
               </div>
@@ -152,11 +153,11 @@ const HomePage = () => {
             <div className="cards text-left bg-white pb-2">
               <div className="card-body text-dark">
                 <div className="img-area mb-2">
-                  <img src="img/Rectangle 50.png" alt="" className="img-fluid"></img>
+                  <img src={Rectangle50} alt="" className="img-fluid"></img>
                   <div className="container">
                     <h3 className="card-title">All Under $40</h3>
                     <p className="lead">Explore Now!</p>
-                    <button className="btn text-dark"><img src="img/Arrow 5.png" alt=""></img></button>
+                    <button className="btn text-dark"><img src={Arrow1} alt=""></img></button>
                   </div>
                 </div>
               </div>
@@ -167,7 +168,7 @@ const HomePage = () => {
             <div className="row">
                 <div className="col-lg-4 col-md-12 col-12">
                     <div className="download-img">
-                        <img src="img/Vouchers.png" width="320%" className="voucher-img"></img>
+                        <img src={Vouchers} alt="" width="320%" className="voucher-img"></img>
                     </div>
                 </div>
             </div>
@@ -177,7 +178,7 @@ const HomePage = () => {
             <div className="row">
                 <div className="col-12 col-md-12 col-lg-12">
                         <div className="box-body text-white">
-                            <img src="img/Group 64.png" alt="" width="100%" className="join-img"></img>
+                            <img src={Group64} alt="" width="100%" className="join-img"></img>
                         </div>
                 </div>
             </div>
